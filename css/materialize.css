@@ -4290,6 +4290,7 @@ nav.nav-extended .nav-wrapper {
 nav.nav-extended .nav-content {
   position: relative;
   line-height: normal;
+  background-color: #670A0D;
 }
 
 nav a {
@@ -4585,10 +4586,11 @@ small {
   }
 }
 
-@media ( max-width: 577px ) {
-  .opaci-black{
-display: none;
-  }
+
+@media (min-width: 1px){
+ body{
+   overflow-x: hidden;
+ }
 }
 
 @media only screen and (min-width: 390px) {
@@ -8347,21 +8349,10 @@ input[type=range]::-ms-thumb {
 }
 
 .opaci-black{
-  background: none repeat scroll 0 0 black;
-  z-index: 10 !important;
-  transform: rotate(3deg);
-  opacity: 25%;
-  height: 120%;
-  width: 170%;
-  position: relative;
-  bottom: 0 !important;
-  left: -5% !important;
-
+  background-color: black;
+  opacity: 70%;
 }
 
-.opaci-card{
-  z-index: 100;
-}
 .slider .indicators {
   position: absolute;
   text-align: center;
@@ -8431,7 +8422,7 @@ input[type=range]::-ms-thumb {
 .inclinacao-first{
 background: none repeat scroll 0 0 #670A0D;
 bottom: -80px;
-top: 490px;
+top: 460px;
 left: -5%;
 height: 290px;
 position: absolute;
@@ -8441,7 +8432,8 @@ z-index: 9;
 }
 .inclinacao-second{
   background: none repeat scroll 0 0 white;
-  margin-top: 290px;
+  margin-top: 238px;
+  left: -5%;
   height: 290px;
   position: absolute;
   transform: rotate(3deg);
@@ -8450,7 +8442,7 @@ z-index: 9;
   }
   .inclinacao-third{
     background: none repeat scroll 0 0 #670A0D;
-    margin-top: 580px;
+    margin-top: 520px;
     left: -5%;
     height: 290px;
     position: absolute;
@@ -8493,22 +8485,39 @@ z-index: 9;
 }
 
 .carousel-one{
-  background-image: url(https://i.pinimg.com/originals/73/3f/68/733f68a2b401b51a8cc71e3159032fb2.jpg);
-  background-size: cover;
+    background:
+           linear-gradient(
+             rgba(0, 0, 0, 0.4), 
+             rgba(0, 0, 0, 0.4)
+           ),
+           url(https://i.pinimg.com/originals/73/3f/68/733f68a2b401b51a8cc71e3159032fb2.jpg);
+   background-size: cover;
   background-position-y: center;
 }
 .carousel-two{
-  background-image: url(https://cdn.ome.lt/KpMc2jaV2ylmOboQtzkKU7PBXqA=/fit-in/837x500/smart/uploads/conteudo/fotos/1_5YY2jYG.jpg);
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ), url(https://cdn.ome.lt/KpMc2jaV2ylmOboQtzkKU7PBXqA=/fit-in/837x500/smart/uploads/conteudo/fotos/1_5YY2jYG.jpg);
   background-size: cover;
   background-position-y: center;
 }
 .carousel-three{
-  background-image: url(https://img.elo7.com.br/product/original/1C914A1/quadro-poster-naruto-anime-naruto-uzumaki.jpg);
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ), url(https://img.elo7.com.br/product/original/1C914A1/quadro-poster-naruto-anime-naruto-uzumaki.jpg);
   background-size: cover;
   background-position-y: center;
 }
 .carousel-four{
-  background-image: url(https://img.elo7.com.br/product/600x380/365316F/camiseta-one-piece-one-piece.jpg);
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ), url(https://img.elo7.com.br/product/600x380/365316F/camiseta-one-piece-one-piece.jpg);
   background-size: cover;
   background-position-y: center;
 }
