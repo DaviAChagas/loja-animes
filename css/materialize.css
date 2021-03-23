@@ -4585,6 +4585,12 @@ small {
   }
 }
 
+@media ( max-width: 577px ) {
+  .opaci-black{
+display: none;
+  }
+}
+
 @media only screen and (min-width: 390px) {
   .flow-text {
     font-size: 1.224rem;
@@ -8342,9 +8348,9 @@ input[type=range]::-ms-thumb {
 
 .opaci-black{
   background: none repeat scroll 0 0 black;
-  z-index: 10;
+  z-index: 10 !important;
   transform: rotate(3deg);
-  opacity: 70%;
+  opacity: 25%;
   height: 120%;
   width: 170%;
   position: relative;
