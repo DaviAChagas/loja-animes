@@ -4283,7 +4283,8 @@ nav.nav-extended {
 
 nav.nav-extended .nav-wrapper {
   min-height: 56px;
-  height: auto;
+  height: auto; 
+  background: none repeat scroll 0 0 #670A0D;
 }
 
 nav.nav-extended .nav-content {
@@ -4751,6 +4752,7 @@ small {
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   border-radius: 2px;
+  z-index: 100;
 }
 
 .card .card-title {
@@ -8335,8 +8337,25 @@ input[type=range]::-ms-thumb {
 .indicators{
   margin-bottom: 2.5% !important;
   padding: 5px;
+  z-index: 100;
 }
 
+.opaci-black{
+  background: none repeat scroll 0 0 black;
+  z-index: 10;
+  transform: rotate(3deg);
+  opacity: 70%;
+  height: 120%;
+  width: 170%;
+  position: relative;
+  bottom: 0 !important;
+  left: -5% !important;
+
+}
+
+.opaci-card{
+  z-index: 100;
+}
 .slider .indicators {
   position: absolute;
   text-align: center;
@@ -8402,6 +8421,48 @@ input[type=range]::-ms-thumb {
   left: 0;
 }
 
+
+.inclinacao-first{
+background: none repeat scroll 0 0 #670A0D;
+bottom: -80px;
+top: 490px;
+left: -5%;
+height: 290px;
+position: absolute;
+transform: rotate(3deg);
+width: 108%;
+z-index: 9;
+}
+.inclinacao-second{
+  background: none repeat scroll 0 0 white;
+  margin-top: 290px;
+  height: 290px;
+  position: absolute;
+  transform: rotate(3deg);
+  width: 108%;
+  z-index: 9;
+  }
+  .inclinacao-third{
+    background: none repeat scroll 0 0 #670A0D;
+    margin-top: 580px;
+    left: -5%;
+    height: 290px;
+    position: absolute;
+    transform: rotate(3deg);
+    width: 108%;
+    z-index: 9;
+    }
+    .inclinacao-fouth{
+      background: none repeat scroll 0 0 white;
+      margin-top: 870px;
+      left: -5%;
+      height: 290px;
+      position: absolute;
+      transform: rotate(3deg);
+      width: 108%;
+      z-index: 9;
+      }
+
 .carousel.carousel-slider .carousel-item h2 {
   font-size: 24px;
   font-weight: 500;
@@ -8431,17 +8492,17 @@ input[type=range]::-ms-thumb {
   background-position-y: center;
 }
 .carousel-two{
-  background-image: url(https://cdn.hipwallpaper.com/i/83/67/ijRFLv.jpg);
+  background-image: url(https://cdn.ome.lt/KpMc2jaV2ylmOboQtzkKU7PBXqA=/fit-in/837x500/smart/uploads/conteudo/fotos/1_5YY2jYG.jpg);
   background-size: cover;
   background-position-y: center;
 }
 .carousel-three{
-  background-image: url(https://wallpaperaccess.com/full/2241223.jpg);
+  background-image: url(https://img.elo7.com.br/product/original/1C914A1/quadro-poster-naruto-anime-naruto-uzumaki.jpg);
   background-size: cover;
   background-position-y: center;
 }
 .carousel-four{
-  background-image: url(https://static.zerochan.net/ONE.PIECE.full.691826.jpg);
+  background-image: url(https://img.elo7.com.br/product/600x380/365316F/camiseta-one-piece-one-piece.jpg);
   background-size: cover;
   background-position-y: center;
 }
