@@ -2,7 +2,13 @@
  * Materialize v1.0.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
- */
+ */  
+
+ .central{
+   position: relative !important;
+  text-align: center !important;
+ margin: 0 auto !important;
+}
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -4473,6 +4479,10 @@ nav .input-field label.active i {
   position: fixed;
 }
 
+.content-correto{
+  transform: rotate(-3deg);
+}
+
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
     min-height: 64px;
@@ -4580,6 +4590,8 @@ small {
   font-weight: 200;
 }
 
+
+
 @media only screen and (min-width: 360px) {
   .flow-text {
     font-size: 1.2rem;
@@ -4590,6 +4602,8 @@ small {
 @media (min-width: 1px){
  body{
    overflow-x: hidden;
+   background-color: black;
+
  }
 }
 
@@ -8434,7 +8448,7 @@ z-index: 9;
   background: none repeat scroll 0 0 white;
   margin-top: 238px;
   left: -5%;
-  height: 290px;
+  height: 340px;
   position: absolute;
   transform: rotate(3deg);
   width: 108%;
@@ -8442,7 +8456,7 @@ z-index: 9;
   }
   .inclinacao-third{
     background: none repeat scroll 0 0 #670A0D;
-    margin-top: 520px;
+    margin-top: 570px;
     left: -5%;
     height: 290px;
     position: absolute;
@@ -8450,11 +8464,11 @@ z-index: 9;
     width: 108%;
     z-index: 9;
     }
-    .inclinacao-fouth{
+    .inclinacao-fourth{
       background: none repeat scroll 0 0 white;
-      margin-top: 870px;
+      margin-top: 860px;
       left: -5%;
-      height: 290px;
+      height: 340px;
       position: absolute;
       transform: rotate(3deg);
       width: 108%;
@@ -9185,4 +9199,21 @@ z-index: 9;
     text-align: center;
     margin-top: 1.2rem;
   }
+
+}
+
+@media (max-width: 620px){
+  .indicators{
+    display: none;
+  }
+}
+
+@media (min-width: 650px){ 
+ .card-position{
+  position: absolute !important;
+  right: 4px !important;
+  left: 60% !important;
+  margin-top: 45px !important;
+}
+
 }
